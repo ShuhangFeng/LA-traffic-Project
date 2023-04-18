@@ -3,6 +3,22 @@ I am analyzing Highways that area I took the most often this year, that is from 
 
 With the PeMS, I can find average speed for each lane for each highways, in a given time. With LA collision data, I can find information of traffic accidents.
 
+The main script is runnable from the
+command line with 3 different inputs:
+**Install Python first
+You can run the project by
+1. python scraper.py
+The script invocation without input arguments just prints (to standard
+output) the complete scraped dataset as rows of data.
+2. python scraper.py –-scrape N
+This script invocation with the flag --scrape N prints (to standard output)
+the first N entries of the dataset.
+3. python scraper.py --save <path_to_dataset>
+This script invocation saves the complete scraped dataset into the file
+passed as input (<path_to_dataset> is just a placeholder for the path to
+the file). Sample invocations could be:
+scraper.py –-save my_scraped_data.csv
+scraper.py -–save dir1/dir2/football_stats.csv
 
 
 
