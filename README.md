@@ -19,6 +19,8 @@ passed as input (<path_to_dataset> is just a placeholder for the path to
 the file). Sample invocations could be:
 scraper.py –-save my_scraped_data.csv
 scraper.py -–save dir1/dir2/football_stats.csv
+4. python scraper.py --viz
+This script would produce the visualization of graph of average speed for each lane.
 
 
 
