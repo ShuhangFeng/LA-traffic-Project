@@ -1,5 +1,5 @@
 # LA-traffic-Project
-I am analyzing Highways that area I took the most often this year, that is from Downtown/Irvine to Riverside, focused on i210, i10, 60, 71, 91.
+I am analyzing Highways that area I took the most often this year, that is from Downtown/Irvine to Riverside, focused on i10, 60, 71, 91.
 
 With the PeMS, I can find average speed for each lane for each highways, in a given time. With LA collision data, I can find information of traffic accidents.
 
